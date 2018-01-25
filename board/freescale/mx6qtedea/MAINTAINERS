@@ -1,0 +1,9 @@
+MX6QTEDEA BOARD
+M:	Fabio Estevam <fabio.estevam@nxp.com>
+M:	Peng Fan <peng.fan@nxp.com>
+S:	Maintained
+F:	board/freescale/mx6qtedea/
+F:	include/configs/mx6qtedea.h
+F:	configs/mx6dlsabreauto_defconfig
+F:	configs/mx6qtedea_defconfig
+F:	configs/mx6qpsabreauto_defconfig

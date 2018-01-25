@@ -209,6 +209,14 @@ config TARGET_MX6QSABREAUTO
 	select DM_THERMAL
 	select BOARD_EARLY_INIT_F
 
+config TARGET_MX6QTEDEA
+        bool "mx6qtedea"
+        select BOARD_LATE_INIT
+        select DM
+        select DM_THERMAL
+        select BOARD_EARLY_INIT_F
+
+
 config TARGET_MX6SABRESD
 	bool "mx6sabresd"
 	select BOARD_LATE_INIT
@@ -413,6 +421,7 @@ source "board/engicam/icorem6_rqs/Kconfig"
 source "board/engicam/isiotmx6ul/Kconfig"
 source "board/freescale/mx6qarm2/Kconfig"
 source "board/freescale/mx6qsabreauto/Kconfig"
+source "board/freescale/mx6qtedea/Kconfig"
 source "board/freescale/mx6sabresd/Kconfig"
 source "board/freescale/mx6slevk/Kconfig"
 source "board/freescale/mx6sllevk/Kconfig"
